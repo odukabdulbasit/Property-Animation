@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
             translater()
         }
 
+        //Scale the start when clicking this button
         scaleButton.setOnClickListener {
             scaler()
         }
