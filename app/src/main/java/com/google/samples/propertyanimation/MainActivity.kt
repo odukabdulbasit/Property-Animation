@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
             rotater()
         }
 
+        //transfering start from point to point
         translateButton.setOnClickListener {
             translater()
         }
