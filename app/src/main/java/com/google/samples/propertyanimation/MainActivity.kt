@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         colorizeButton = findViewById<Button>(R.id.colorizeButton)
         showerButton = findViewById<Button>(R.id.showerButton)
 
+        //rotate the star
         rotateButton.setOnClickListener {
             rotater()
         }
